@@ -1,0 +1,27 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar o seu nome e a sua idade, e armazene-os em variáveis string e int, respectivamente.
+		 //Em seguida, exiba essas informações na tela.
+		 
+		 Console.WriteLine ("Digite seu nome: ");
+		 string nome = Convert.ToString(Console.ReadLine());
+		 Console.WriteLine ("Digite sua idade: ");
+		 int idade = Convert.ToInt16(Console.ReadLine());
+		 
+		 Console.WriteLine ("Seu nome é: " + nome);
+		 Console.WriteLine ("Sua idade é: " + idade);
+			
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
