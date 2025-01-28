@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar um número real e armazene-o em uma variável double.
+		 //Em seguida, exiba o valor da variável na tela.
+		 
+		 Console.WriteLine ("Digite um número real: ");
+		 double numReal = Convert.ToDouble(Console.ReadLine());
+		 Console.WriteLine ("O número que digitou é:" + numReal);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
