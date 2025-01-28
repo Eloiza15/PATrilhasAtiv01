@@ -1,0 +1,36 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar "sim" ou "não" e armazene-o em uma variável bool.
+		 //Em seguida, exiba o valor da variável na tela.
+		 
+		Console.WriteLine ("Digite Sim ou Não: ");
+		
+		string simNao = Convert.ToString(Console.ReadLine());
+		
+		bool verdadeiroFalso;
+		
+		if(simNao == "Sim")
+		{ 
+			verdadeiroFalso = true;
+			Console.WriteLine("Sim = Verdadeiro");
+		}
+		else if (simNao == "Não")
+		{
+		    verdadeiroFalso = false;
+		    Console.WriteLine("Não = Falso");
+		         	
+		}
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
