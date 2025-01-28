@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar um número inteiro e armazene-o em uma variável int. 
+		 //Em seguida, exiba o valor da variável na tela.
+		 
+		 Console.WriteLine ("Digite um número inteiro: ");
+		 int numInteiro = Convert.ToInt32(Console.ReadLine());
+		 Console.WriteLine ("O número que digitou é:" + numInteiro);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
