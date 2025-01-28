@@ -1,0 +1,27 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar o preço de um produto e o seu desconto em porcentagem, e armazene-os em variáveis double.
+		 //Em seguida, calcule o preço final com o desconto e exiba-o na tela.
+		 
+		 Console.WriteLine ("Digite o preço de um produto: ");
+		 double preco = Convert.ToDouble(Console.ReadLine());
+		 Console.WriteLine ("Digite o desconto em porcentagem: ");
+		 double desconto = Convert.ToDouble(Console.ReadLine());
+		 
+		 double precoFinal = preco - (preco * (desconto / 100));
+		 
+		 Console.WriteLine("O preço final com desconto é: " + precoFinal);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
