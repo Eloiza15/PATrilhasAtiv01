@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar um número de ponto flutuante e armazene-o em uma variável float.
+		 //Em seguida, exiba o valor da variável na tela.
+		 
+		 Console.WriteLine ("Digite um número de ponto flutuante: ");
+		 float numFlutuante = float.Parse(Console.ReadLine());
+		 Console.WriteLine ("O número que digitou é:" + numFlutuante);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
