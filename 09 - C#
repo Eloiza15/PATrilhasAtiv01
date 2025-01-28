@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar uma palavra e armazene-a em uma variável string. 
+		 //Em seguida, exiba o comprimento da palavra na tela.
+		 
+		 Console.WriteLine ("Digite uma palavra: ");
+		 string palavra = Convert.ToString(Console.ReadLine());
+		 
+		 int contagem = palavra.Length;
+		 Console.WriteLine("O comprimento da palavra é: " + contagem);
+		 
+		  
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
