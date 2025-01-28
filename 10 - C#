@@ -1,0 +1,40 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		//Peça ao usuário para digitar o seu endereço completo, incluindo o número da
+		//casa, rua, bairro, cidade e estado. Armazene cada informação em uma
+		//variável string e, em seguida, exiba todas as informações juntas em uma
+		//única linha.
+		 
+		 Console.WriteLine ("Digite o nome da sua Rua: ");
+		 string rua = (Console.ReadLine());
+		 
+		 Console.WriteLine ("Digite o número da sua casa: ");
+		 string numero = (Console.ReadLine());
+		 
+		 Console.WriteLine ("Digite seu Bairro: ");
+		 string bairro = (Console.ReadLine());
+		 
+		 Console.WriteLine ("Digite sua Cidade: ");
+		 string cidade = (Console.ReadLine());
+		 
+		 Console.WriteLine ("Digite seu Estado: ");
+		 string estado = (Console.ReadLine());
+		 
+		 Console.WriteLine("Você mora na rua {0}, número {1}, no bairro {2}, sua cidade é {3}, e seu estdo é {4} ", rua,numero,bairro,cidade,estado);
+		 
+		 
+		  
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
