@@ -1,0 +1,23 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+		 //Peça ao usuário para digitar um caractere e armazene-o em uma variável char.
+		 //Em seguida, exiba o valor da variável na tela.
+		 
+		 Console.WriteLine ("Digite um caractere: ");
+		 char caractere = Convert.ToChar(Console.ReadLine());
+		 Console.WriteLine ("O caractere que digitou foi: " + caractere);
+			
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
